@@ -1,0 +1,2 @@
+my @array = (1, 2, 3);my $element;if (\[0..$#array] {$element = $array[3];}else{$element = undef;}; # Check index before accessing
+print "Element: ", defined($element) ? $element : "Undefined"; # Handle the undefined case
